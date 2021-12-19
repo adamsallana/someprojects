@@ -2,7 +2,7 @@
 import random
 import words
 
-file = open("words.txt", "r")
+file = open("words.py", "r")
 file = file.readline().strip("['[\"")
 
 fileList = file.split("\",\"")
